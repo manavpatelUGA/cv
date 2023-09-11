@@ -1,5 +1,5 @@
 h1 {
-    background-color: red;
+    background-color:darkolivegreen; 
 }
 body {
     margin: 0px;
@@ -12,7 +12,9 @@ nav {
 }
 nav a {
     color:brown; 
-    background-color: aliceblue;
+    background-color: gray;
+    border-radius: 15px;
+    border-width: 20px;
 }
 nav a:hover {
     background-color: black;
@@ -34,18 +36,20 @@ footer a:hover {
 }
 
 .class1 { 
-    background-color: lightblue;
+    background-color: white;
     padding: 15px;
     font-family: 'Roboto';
     color: darkgreen;
     font-size: x-large;
+    text-align: center;
 }
 
 .class2 {
-    background-color: pink;
+    background-color: darkslategray;
     font-family: 'Bebas Neue', sans-serif;
-    color: green;
-    font-size: large;
+    color: lightgray;
+    font-size: medium;
+    text-align: center;
 }
 
 a {
@@ -66,24 +70,77 @@ a:hover {
 @font-face {
     font-family: 'Bebas Neue';
     src: url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
-    color: green;
 }
 
 hr {
     border-width: 5px;
-    border-style: groove;
+    border-style: dotted;
 }
 
 .header1 {
     position: absolute;
     top: 0;
     left: 0;
-    height: 50px;
-    width: 80%;
+    height: 75px;
+    width: 50%;
+    border-radius: 15spx;
 }
 
 .header2 {
     position: absolute;
-    height: 50px;
-    width: 100%;
+    top: 0px;
+    left: 50%;
+    height: 75px;
+    width: 30%;
+}
+
+.languages {
+    height: 100px;
+    width: 100px;
+    border-radius: 15px;
+}
+
+.skills {
+    height: 150px;
+    width:300px;
+    border-radius: 15px;
+}
+
+.leadership {
+    height: 150px;
+    width: 300px;
+    border-radius: 15px;
+}
+
+.card {
+    border: 1px solid black;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    background-color: slategray;
+    outline: none;
+    padding: 3%;
+    font-size: large;
+    text-align: left;
+}
+.card-image {
+    height: 1000px;
+}
+
+.three-col {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+  }
+  
+ul {
+    display: grid;
+}
+
+dl {
+    display: grid;
+}
+
+.one-col {
+    display: flex;
+    flex-direction: column;
 }
