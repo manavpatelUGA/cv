@@ -1,0 +1,89 @@
+h1 {
+    background-color: red;
+}
+body {
+    margin: 0px;
+}
+nav {
+    background-color: aqua;
+    font-family: cursive;
+    display: flex;
+    justify-content: right;
+}
+nav a {
+    color:brown; 
+    background-color: aliceblue;
+}
+nav a:hover {
+    background-color: black;
+}
+
+footer {
+    background-color: aqua;
+    font-family: cursive;
+    display: flex;
+    justify-content: center;
+}
+
+footer a {
+    color: brown;
+    background-color: aliceblue;
+}
+footer a:hover {
+    background-color: black;
+}
+
+.class1 { 
+    background-color: lightblue;
+    padding: 15px;
+    font-family: 'Roboto';
+    color: darkgreen;
+    font-size: x-large;
+}
+
+.class2 {
+    background-color: pink;
+    font-family: 'Bebas Neue', sans-serif;
+    color: green;
+    font-size: large;
+}
+
+a {
+    color: fuchsia;
+    text-decoration: none;
+}
+a:hover {
+    color:coral;
+    background-color: black;
+}
+
+@font-face {
+    font-family: 'Roboto' ;
+    src: url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+    color: yellow;
+}
+
+@font-face {
+    font-family: 'Bebas Neue';
+    src: url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+    color: green;
+}
+
+hr {
+    border-width: 5px;
+    border-style: groove;
+}
+
+.header1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 50px;
+    width: 80%;
+}
+
+.header2 {
+    position: absolute;
+    height: 50px;
+    width: 100%;
+}
