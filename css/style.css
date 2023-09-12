@@ -1,27 +1,38 @@
 h1 {
-    background-color:darkolivegreen; 
+     
+    position: relative;
+    width: 100%;
+    color: black;
+    justify-self: center;
+    
+}
+h2 {
+    position: relative;
+    color: black;
 }
 body {
     margin: 0px;
 }
 nav {
-    background-color: aqua;
+    background-color: darkgray;
     font-family: cursive;
     display: flex;
     justify-content: right;
 }
 nav a {
-    color:brown; 
+    color:black; 
     background-color: gray;
     border-radius: 15px;
     border-width: 20px;
+    position: relative;
 }
 nav a:hover {
     background-color: black;
+    border-radius: 15px;
 }
 
 footer {
-    background-color: aqua;
+    background-color: lightgray;
     font-family: cursive;
     display: flex;
     justify-content: center;
@@ -29,19 +40,25 @@ footer {
 
 footer a {
     color: brown;
-    background-color: aliceblue;
+    background-color: lightseagreen;
 }
 footer a:hover {
     background-color: black;
 }
 
 .class1 { 
-    background-color: white;
-    padding: 15px;
+    background-color: gray;
+    padding: 150px;
     font-family: 'Roboto';
     color: darkgreen;
-    font-size: x-large;
+    font-size: medium;
     text-align: center;
+
+}
+
+.profilePic {
+    border-radius: 15px 15px 15px 15px;
+   
 }
 
 .class2 {
@@ -50,10 +67,11 @@ footer a:hover {
     color: lightgray;
     font-size: medium;
     text-align: center;
+    position: relative;
 }
 
 a {
-    color: fuchsia;
+    color: darkgreen;
     text-decoration: none;
 }
 a:hover {
@@ -79,19 +97,15 @@ hr {
 
 .header1 {
     position: absolute;
-    top: 0;
+    display: flex;
     left: 0;
-    height: 75px;
-    width: 50%;
-    border-radius: 15spx;
+
 }
 
 .header2 {
     position: absolute;
-    top: 0px;
-    left: 50%;
-    height: 75px;
-    width: 30%;
+    right: 0;
+    display: flex;
 }
 
 .languages {
@@ -121,6 +135,7 @@ hr {
     padding: 3%;
     font-size: large;
     text-align: left;
+
 }
 .card-image {
     height: 1000px;
@@ -143,4 +158,22 @@ dl {
 .one-col {
     display: flex;
     flex-direction: column;
+    position: center; 
+    justify-content: center;
 }
+input {
+    border-radius: 15px;
+    background-color: lightgray;
+    padding: 10px;
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+}
+
+textarea {
+    border-radius: 15px;
+    background-color: lightgray;
+    position: center;
+    padding: 20px;
+}
+
