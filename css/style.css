@@ -135,7 +135,7 @@ hr {
     padding: 3%;
     font-size: large;
     text-align: left;
-
+    display: flex;
 }
 .card-image {
     height: 1000px;
@@ -156,24 +156,22 @@ dl {
 }
 
 .one-col {
-    display: flex;
+    display: grid;
     flex-direction: column;
     position: center; 
     justify-content: center;
+    padding: 10px;
+    justify-content: center;
+    text-align: center;
 }
+
 input {
     border-radius: 15px;
     background-color: lightgray;
-    padding: 10px;
-    display: flex; 
-    flex-direction: column;
-    justify-content: center;
 }
 
 textarea {
     border-radius: 15px;
     background-color: lightgray;
-    position: center;
     padding: 20px;
 }
-
