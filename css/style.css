@@ -135,16 +135,20 @@ hr {
     padding: 3%;
     font-size: large;
     text-align: left;
-    display: flex;
+    justify-content: center;
+ 
+        
 }
 .card-image {
     height: 1000px;
+    justify-content: left;
 }
 
 .three-col {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 1rem;
+    justify-content: left;
   }
   
 ul {
@@ -159,10 +163,9 @@ dl {
     display: grid;
     flex-direction: column;
     position: center; 
-    justify-content: center;
     padding: 10px;
     justify-content: center;
-    text-align: center;
+    text-align: left;
 }
 
 input {
